@@ -1,0 +1,63 @@
+{
+  "baseline_keywords": {
+    "accuracy": 0.75,
+    "macro_f1": 0.741
+  },
+  "tfidf_logreg": {
+    "accuracy": 0.977,
+    "macro_f1": 0.977,
+    "val_macro_f1": 1.0,
+    "cv5_macro_f1_mean": 0.979,
+    "cv5_macro_f1_std": 0.019,
+    "recall_per_class": {
+      "billing": 0.909,
+      "technical": 1.0,
+      "account": 1.0,
+      "general": 1.0
+    }
+  },
+  "confidence": {
+    "threshold": 0.6,
+    "share_confident": 1.0,
+    "accuracy_on_confident": 0.977
+  },
+  "robustness_macro_f1": {
+    "no_punctuation": 0.977,
+    "uppercase_input": 0.977
+  },
+  "top_words": {
+    "account": [
+      "my",
+      "cannot",
+      "account",
+      "my account",
+      "email",
+      "two"
+    ],
+    "billing": [
+      "was",
+      "payment",
+      "invoice",
+      "dollars",
+      "get refund",
+      "refund"
+    ],
+    "general": [
+      "do you",
+      "you",
+      "your",
+      "help",
+      "do",
+      "service"
+    ],
+    "technical": [
+      "screen",
+      "page",
+      "error",
+      "app",
+      "and",
+      "the"
+    ]
+  },
+  "n_errors": 1
+}
